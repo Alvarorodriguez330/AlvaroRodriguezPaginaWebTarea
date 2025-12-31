@@ -1,0 +1,196 @@
+html {
+    background-color: #000315;
+}
+
+body {
+    background-image: url(imagenes/79233450-galaxy-illustration-space-background-with-stars-nebula-cosmos-clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    height: 100%;
+    width: 100%;
+    color: aqua;
+    font-weight: bold;
+    font-family: arial;
+    text-align: justify;
+}
+abbr {
+    color:blueviolet
+}
+
+
+
+.par {
+    color: red;
+    text-align: justify;
+}
+
+.impar{
+    color: rgb(255, 0, 200);
+    text-align: justify;
+}
+
+#p1 {
+    font-size: 25px;
+}
+
+#p2 {
+    font-size: 25px;
+}
+
+/*p[class^="p"] {
+    color: rgb(143, 0, 209);
+}*/
+
+div p strong {
+    color: red;
+}
+
+#div1 p strong {
+    font-size: 40px;
+}
+
+#div2 p strong {
+    font-size: 30px;
+}
+
+div p>strong {
+    color: yellow;
+}
+
+/*li{
+    font-size: 15px;
+    color: aqua;
+}*/
+
+/*#lista3 + li {
+    color: rgb(0, 195, 255);
+}*/
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:link {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:active {
+    color: red;
+}
+
+li:first-child {
+    color: rgb(255, 238, 0);
+}
+
+/*li:nth-child(3) {
+    color:  width: 20px;
+    height: 20px;rgb(51, 255, 0);
+}*/
+
+li:last-child {
+    color: tomato;
+}
+
+li {
+    color: rgb(0, 162, 255);
+}
+
+p::first-letter {
+    color: red;
+    font-size: 80px;
+
+}
+
+p::first-line {
+    font-size: 50px;
+}
+
+p::selection {
+    background-color: aqua;
+}
+
+p::before {
+    content: '👌 ';
+    width: 20px;
+    height: 20px;
+}
+
+p::after {
+    content: url(imagenes/imacss-html2-e1517475681211.png.webp);
+    width: 20px;
+    height: 20pz;
+}
+
+#pUno{
+    color: red;
+}
+
+.pDos {
+    color: aqua;
+}
+
+#pUno{
+    color: yellow !important;
+}
+
+p {
+    color: brown;
+}
+
+p {
+    color: rgb(255, 2, 192);
+}
+
+#prropiedades{
+    font-family: Arial;
+    font-style: italic;
+    font-size: 30px;
+    color: chartreuse;
+}
+
+/*ul {
+    list-style-image: url(imagenes/spain-map-svgrepo-com.svg);
+    
+}*/
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "\1FA90";
+    background-color: rgb(35, 0, 163);
+    font-size: 1.3em;
+    color: rgb(132, 0, 255);
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: aqua;              
+    text-decoration: none;    
+    margin: 0 15px;           
+    font-size: 18px;         
+    font-weight: bold;       
+}
+
+nav a:hover {
+    color: yellow;            
+    text-decoration: underline; 
+}
